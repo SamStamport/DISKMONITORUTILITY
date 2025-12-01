@@ -1,0 +1,3 @@
+# Minimal runtime dependencies (uncomment if needed)
+# psutil is commonly used for disk monitoring
+psutil>=5.9.0
