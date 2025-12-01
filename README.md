@@ -1,3 +1,15 @@
+# ⚠️ WARNING: FOR ARCHIVAL PURPOSES ONLY ⚠️
+
+## 🚫 THIS PROJECT IS NOT SUPPORTED AND NOT MAINTAINED
+
+### NO SUPPORT · NO QUESTIONS · NO ASSISTANCE
+
+> **This repository is provided as-is for archival and reference purposes only.**  
+> Please do **not** open issues, ask questions, or request features.  
+> This project is **not actively developed or maintained.**
+
+---
+
 # Disk Monitor Utility
 
 A simple Windows utility to identify which processes are hogging your disk. Features a GUI interface and command-line usage.
