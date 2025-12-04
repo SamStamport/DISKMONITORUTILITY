@@ -24,6 +24,14 @@ Simply run the pre-built Windows executable:
 .\dist\DiskMonitor.exe
 ```
 
+### Using the CLI
+
+Run the command-line version:
+
+```powershell
+.\dist\DiskMonitorCLI.exe
+```
+
 **Features:**
 - Start/Stop disk monitoring
 - Adjust duration, interval, and top N processes to display
@@ -77,10 +85,13 @@ If you want to rebuild the executable:
 # Install PyInstaller
 pip install pyinstaller
 
-# Build the .exe
+# Build the GUI .exe
 pyinstaller --onefile --noconsole --name DiskMonitor disk_monitor_gui.py
 
-# The exe will be in .\dist\DiskMonitor.exe
+# Build the CLI .exe
+pyinstaller --onefile --name DiskMonitorCLI disk_monitor.py
+
+# The executables will be in .\dist\
 ```
 
 ## How It Works
